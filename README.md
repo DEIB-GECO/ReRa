@@ -1,4 +1,5 @@
-# Machine Learning applications for the classification of Breast Cancer Types and the Analysis of Transcript Isoform RNA-seq Data
+# Supervised Relevance-Redundancy assessments for feature selection in omics-based classification scenarios
+##Feature selection and Machine Learning classifiers for the expression-based subyping of Breast Cancer patients at both gene and isoform levels leveraging TCGA RNA-seq data.
 
 ## Description
 
