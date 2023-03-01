@@ -8,7 +8,7 @@ The goal of this project is understanding if the use of *transcript isoform expr
 In order to assess the contribution of different isoforms in the crucial clinical issue of prognostically relevant breast cancer patients’ stratification, a final comparison of performances of the explored models is done on both the datasets with isoforms and genes expressions as features.
 
 ## Steps of the Analysis
+In the notebooks provided, we show the steps taken to preprocess datasets, generate feature spaces, evaluate and tune performances of a variety of classification models. Morevoer, we also include insights and comparisons of the different feature spacs and explore feature importance techniques.
 
 ## Results
-
-## Credits
+The results are provided as part of the analysis in the paper.
