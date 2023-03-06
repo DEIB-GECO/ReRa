@@ -1,5 +1,5 @@
-# Supervised Relevance-Redundancy assessments for feature selection in omics-based classification scenarios
-ReRa, a novel method using supervised RElevance-Redundancy Assessments to efficiently improve feature selection. 
+# ReRa, supervised relevance-redundancy assessments for feature selection in omics-based classification scenarios
+A novel feature selection method using supervised Relevance-Redundancy assessments to efficiently improve selection. 
 
 
 
