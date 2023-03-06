@@ -1,14 +1,20 @@
 # Supervised Relevance-Redundancy assessments for feature selection in omics-based classification scenarios
-Feature selection and Machine Learning classifiers for the expression-based subyping of Breast Cancer patients at both gene and isoform levels leveraging TCGA RNA-seq data.
+ReRa, a novel method using supervised RElevance-Redundancy Assessments to efficiently improve feature selection 
+
+
+
 
 ## Description
+Clinically-relevant classifications tasks based on omics, like expression values, can suffer from uneven class distributions and huge, unbalanced dimensionalities of features, which are often noisy and highly redundant.
+Feature selection is fundamental to extract predictive features for robust classification. Yet, canonical filters, which are computationally efficient and scalable, struggle to remove redundancy. Conversely, Relevance-Redundancy approaches inspect also feature relationships to minimize global redundancy, but cannot easily scale over huge feature sizes. We propose ReRa, a new efficient Relevance-Redundancy approach including filtering and similarity evaluations based on the supervised information provided by the target classes. ReRa uses both global and supervised class-specific similarity assessments to optimize selection, considering 
+also feature differential behaviours that can improve classification.
 
-The goal of this project is understanding if the use of *transcript isoform expression data*  are relevant for the classification of *Breast Cancer intrinsic subtypes*. In order to address this task, many different data science and machine learning techniques are explored for classification, data preprocessing, feature analysis and selection.
+## Application use cases
+Feature selection using ReRa and other SoA approaches are combined with several Machine Learning classifiers to provide expression-based *intrinsic subyping of Breast Cancer patients* at both gene and isoform levels, leveraging TCGA RNA-seq data (gene and transcript isoform expression data). The two use cases considered represent an insightful example of translational application, taking advantage of ReRa capabilities to investigate and enhance a clinically-relevant patient stratification task, which could be easily applied also to other cancer types and diseases.
 
-In order to assess the contribution of different isoforms in the crucial clinical issue of prognostically relevant breast cancer patients’ stratification, a final comparison of performances of the explored models is done on both the datasets with isoforms and genes expressions as features.
 
-## Steps of the Analysis
-In the notebooks provided, we show the steps taken to preprocess datasets, generate feature spaces, evaluate and tune performances of a variety of classification models. Morevoer, we also include insights and comparisons of the different feature spacs and explore feature importance techniques.
+## Steps of the Analysis and results
+In the notebooks provided, we show the steps taken to preprocess datasets, generate alternative feature spaces, evaluate and tune performances of a variety of classification models. ReRa provides machine learning classifiers with predictive features that improve their performance in such unbalanced class distribution scenarios: the results are reported and discussed in the related paper. Morevoer, we include comparisons of the different feature spacs and models, and we explore feature importance techniques to assess the contribution of different genes and isoforms in the crucial clinical issue of prognostically relevant breast cancer patients’ stratification.
 
-## Results
-The results are provided as part of the analysis in the paper.
+
+.
