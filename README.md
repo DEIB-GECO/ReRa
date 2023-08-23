@@ -13,7 +13,7 @@ Feature selection using ReRa and other SoA approaches are combined with several 
 
 
 ## Steps of the Analysis and results
-In the notebooks provided, we show the steps performed to preprocess datasets, generate alternative feature spaces, tune and evaluate performances of sevaral classification models. In the vast majority of the assessed cases, ReRa provides classifiers with predictive features that improve their performance in such unbalanced classification scenarios: the results are reported and discussed in the related paper. We include comparisons of the different feature spacs and models and we explore feature importance using Shapley Additive Explanations (SHAP) technique to assess the contribution of different genes and isoforms in the crucial clinical issue of prognostically relevant breast cancer patients stratification.
+In the notebooks provided, we show the steps performed to preprocess datasets, generate alternative feature spaces, tune and evaluate performances of several classification models. In the vast majority of the assessed cases, ReRa provides classifiers with predictive features that improve their performance in such unbalanced classification scenarios: the results are reported and discussed in the related paper. We include comparisons of the different feature spaces and models and we explore feature importance using Shapley Additive Explanations (SHAP) technique to assess the contribution of different genes and isoforms in the crucial clinical issue of prognostically relevant breast cancer patients stratification.
 
 
 .
